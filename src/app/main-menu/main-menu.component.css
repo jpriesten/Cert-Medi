@@ -1,0 +1,40 @@
+/*  services section */
+
+.services {
+    padding-top: 100px;
+    text-align: center;
+    height: 710px;
+    display: block;
+}
+
+.services h2,
+h3 {
+    padding-bottom: 50px;
+}
+
+.services-heading {
+    color: #4c4c4c;
+    margin: 30px 0 20px;
+    font-weight: 900;
+}
+
+.services a {
+    height: 100px;
+    width: 100px;
+    font-size: 40px;
+    padding: 25px 25px;
+    color: #fff;
+    background-color: #f71;
+}
+
+.services a:hover {
+    height: 150px;
+    width: 150px;
+    background-color: #17e1ee;
+}
+
+.services p {
+    color: #737373;
+    font-size: 20px;
+    padding-bottom: 40px;
+}

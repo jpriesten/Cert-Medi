@@ -1,0 +1,27 @@
+/*  A propos section , about section */
+
+.apropos {
+    padding-top: 100px;
+    height: 710px;
+    display: block;
+    background-image: url("../../assets/img/aboutCertmedi.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    position: relative;
+}
+
+.apropos h3,
+h2,
+h1 {
+    color: orange;
+}
+
+.apropos p {
+    color: white;
+    font-size: 25px;
+    margin-bottom: 25px;
+}
+
+
+/*  contact section  */

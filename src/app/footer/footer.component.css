@@ -1,0 +1,17 @@
+/* footer section */
+
+.footer {
+    color: white;
+    background-color: #141414;
+    padding-top: 30px;
+    padding: 40px;
+}
+
+.social {
+    font-size: 20px;
+    height: 30px;
+    width: 30px;
+    text-align: center;
+    padding: 5px;
+    border: 1px solid #1cbad7;
+}
