@@ -16,6 +16,8 @@ import { MainMenuComponent } from './main-menu/main-menu.component';
 
 import { AlertModule } from 'ngx-bootstrap';
 import { CarouselModule } from 'ngx-bootstrap/carousel';
+import { AppRoutingModule } from './/app-routing.module';
+import { LayoutsComponent } from './layouts/layouts.component';
 
 
 
@@ -30,13 +32,15 @@ import { CarouselModule } from 'ngx-bootstrap/carousel';
     SectionProductListComponent,
     SectionAdvicetListComponent,
     ContactFormComponent,
-    MainMenuComponent
+    MainMenuComponent,
+    LayoutsComponent
   ],
   imports: [
     BrowserModule,
     NgbModule.forRoot(),
     AlertModule.forRoot(),
-    CarouselModule.forRoot()
+    CarouselModule.forRoot(),
+    AppRoutingModule
   ],
   providers: [],
   bootstrap: [AppComponent]
