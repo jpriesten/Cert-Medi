@@ -14,6 +14,10 @@ import { SectionAdvicetListComponent } from './section-advicet-list/section-advi
 import { ContactFormComponent } from './contact-form/contact-form.component';
 import { MainMenuComponent } from './main-menu/main-menu.component';
 
+import { AlertModule } from 'ngx-bootstrap';
+import { CarouselModule } from 'ngx-bootstrap/carousel';
+
+
 
 @NgModule({
   declarations: [
@@ -30,7 +34,9 @@ import { MainMenuComponent } from './main-menu/main-menu.component';
   ],
   imports: [
     BrowserModule,
-    NgbModule.forRoot()
+    NgbModule.forRoot(),
+    AlertModule.forRoot(),
+    CarouselModule.forRoot()
   ],
   providers: [],
   bootstrap: [AppComponent]
