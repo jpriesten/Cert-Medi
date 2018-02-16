@@ -1,0 +1,11 @@
+@media(max-width:767px) {
+    #carousel {
+        visibility: hidden;
+    }
+}
+
+@media (max-width: 992px) {
+    #carousel {
+        visibility: hidden;
+    }
+}
