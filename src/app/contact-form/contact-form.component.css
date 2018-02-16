@@ -1,0 +1,25 @@
+/*  contact section  */
+
+.contact {
+    padding-top: 150px;
+    height: 710px;
+    display: block;
+    background-image: url("../../assets/img/map-image.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    position: relative;
+}
+
+.contact-heading {
+    text-transform: uppercase;
+    text-shadow: 3px 3px 3px #141414;
+}
+
+.contact-subheading {
+    color: white;
+}
+
+@media(max-width:767px) {}
+
+@media (max-width: 992px) {}

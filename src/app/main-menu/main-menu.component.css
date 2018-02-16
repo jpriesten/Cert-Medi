@@ -38,3 +38,16 @@ h3 {
     font-size: 20px;
     padding-bottom: 40px;
 }
+
+@media(max-width:767px) {
+    /* services section */
+    .services {
+        height: 100%;
+    }
+}
+
+@media (max-width: 992px) {
+    .services {
+        height: 100%;
+    }
+}

@@ -30,3 +30,12 @@
      font-size: 18px;
      background-color: #1cbad7;
  }
+ 
+ @media(max-width:767px) {
+     /* navigation */
+     .nav-item {
+         background-color: rgba(0, 0, 0, 1);
+     }
+ }
+ 
+ @media (max-width: 992px) {}

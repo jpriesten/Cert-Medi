@@ -23,5 +23,15 @@ h1 {
     margin-bottom: 25px;
 }
 
+@media(max-width:767px) {
+    /* about/apropos section */
+}
+
+@media (max-width: 992px) {
+    .apropos {
+        height: 100%;
+    }
+}
+
 
 /*  contact section  */
