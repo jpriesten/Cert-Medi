@@ -1,0 +1,29 @@
+/* team */
+
+.team {
+    height: 710px;
+    padding-top: 100px;
+    background-color: #01131c;
+    color: white;
+}
+
+.team img {
+    margin-left: 75px;
+}
+
+.team-heading {
+    text-transform: uppercase;
+    font-weight: 700px;
+    color: #0297a9;
+}
+
+.team-sub-heading {
+    padding: 15px 0px 50px;
+}
+
+@media(max-width:767px) {
+    .team {
+        height: auto;
+        padding-bottom: 30px;
+    }
+}

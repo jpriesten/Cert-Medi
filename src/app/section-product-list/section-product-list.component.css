@@ -1,0 +1,33 @@
+/* products section */
+
+.produits {
+    margin-top: 0px;
+    margin-bottom: 150px;
+    height: auto;
+    background-color: #fbfcfc;
+    opacity: 10;
+}
+
+.produits img {
+    height: 250px;
+    width: 80%;
+}
+
+.produits img:hover {
+    padding: 5px;
+    width: 80%;
+}
+
+.produits p {
+    font-size: 20px;
+    color: #0297a9;
+}
+
+.produits h1 {
+    font-weight: 700;
+    color: #084951;
+}
+
+.product-list {
+    padding-top: 150px;
+}

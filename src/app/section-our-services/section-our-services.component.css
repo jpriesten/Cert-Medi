@@ -1,0 +1,43 @@
+/* services */
+
+.services {
+    height: auto;
+    margin-top: 80px;
+    padding-top: 50px;
+    padding-bottom: 80px;
+}
+
+.service-describtion {
+    font-size: 20px;
+    text-align: left;
+}
+
+.services p {
+    font-size: 20px;
+    color: #0297a9;
+}
+
+.service-heading {
+    text-align: center;
+    font-weight: 700;
+    font-size: 25px;
+    margin-bottom: 5px;
+    color: #084951;
+}
+
+.service-subheading {
+    text-align: center;
+    font-weight: 600;
+    margin-bottom: 50px;
+}
+
+.services img {
+    width: 300px;
+    height: 300px;
+}
+
+.liner {
+    margin-top: 80px;
+    border: 1px solid #58070d;
+    width: 60%;
+}

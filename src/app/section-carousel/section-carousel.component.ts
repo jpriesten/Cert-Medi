@@ -12,6 +12,10 @@ export class SectionCarouselComponent implements OnInit {
   ngOnInit() {
   }
 
+  onclick(){
+    window.alert("hello");
+  }
+
 }
 
 @Component({

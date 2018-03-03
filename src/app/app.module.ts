@@ -1,9 +1,11 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-
-
 import { AppComponent } from './app.component';
+
+/* importing bootstrap */
 import {NgbModule} from '@ng-bootstrap/ng-bootstrap';
+
+/* importing all app components */
 import { NavbarComponent } from './navbar/navbar.component';
 import { FooterComponent } from './footer/footer.component';
 import { SectionCarouselComponent } from './section-carousel/section-carousel.component';
@@ -13,11 +15,17 @@ import { SectionProductListComponent } from './section-product-list/section-prod
 import { SectionAdvicetListComponent } from './section-advicet-list/section-advicet-list.component';
 import { ContactFormComponent } from './contact-form/contact-form.component';
 import { MainMenuComponent } from './main-menu/main-menu.component';
+import { SectionOurServicesComponent } from './section-our-services/section-our-services.component';
 
-import { AlertModule } from 'ngx-bootstrap';
+/* ngx imports */
 import { CarouselModule } from 'ngx-bootstrap/carousel';
+
+/* routing imports */
 import { AppRoutingModule } from './/app-routing.module';
+
+/* home page layout components importation */
 import { LayoutsComponent } from './layouts/layouts.component';
+
 
 
 
@@ -33,12 +41,12 @@ import { LayoutsComponent } from './layouts/layouts.component';
     SectionAdvicetListComponent,
     ContactFormComponent,
     MainMenuComponent,
-    LayoutsComponent
-  ],
+    LayoutsComponent,
+    SectionOurServicesComponent
+  ], 
   imports: [
     BrowserModule,
     NgbModule.forRoot(),
-    AlertModule.forRoot(),
     CarouselModule.forRoot(),
     AppRoutingModule
   ],
