@@ -31,6 +31,10 @@
      background-color: #1cbad7;
  }
  
+ .dropdown-menu {
+     background-color: rgb(0, 12, 34);
+ }
+ 
  @media(max-width:767px) {
      /* navigation */
      .nav-item {
