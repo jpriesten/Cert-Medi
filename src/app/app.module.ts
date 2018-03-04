@@ -5,6 +5,10 @@ import { AppComponent } from './app.component';
 /* importing bootstrap */
 import {NgbModule} from '@ng-bootstrap/ng-bootstrap';
 
+/* ngx imports */
+import { CarouselModule } from 'ngx-bootstrap/carousel';
+import { BsDropdownModule } from 'ngx-bootstrap/dropdown';
+
 /* importing all app components */
 import { NavbarComponent } from './navbar/navbar.component';
 import { FooterComponent } from './footer/footer.component';
@@ -17,8 +21,6 @@ import { ContactFormComponent } from './contact-form/contact-form.component';
 import { MainMenuComponent } from './main-menu/main-menu.component';
 import { SectionOurServicesComponent } from './section-our-services/section-our-services.component';
 
-/* ngx imports */
-import { CarouselModule } from 'ngx-bootstrap/carousel';
 
 /* routing imports */
 import { AppRoutingModule } from './/app-routing.module';
@@ -48,6 +50,7 @@ import { LayoutsComponent } from './layouts/layouts.component';
     BrowserModule,
     NgbModule.forRoot(),
     CarouselModule.forRoot(),
+    BsDropdownModule.forRoot(),
     AppRoutingModule
   ],
   providers: [],

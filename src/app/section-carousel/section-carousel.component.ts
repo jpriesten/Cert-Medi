@@ -17,18 +17,3 @@ export class SectionCarouselComponent implements OnInit {
   }
 
 }
-
-@Component({
-  selector: 'ngbd-carousel-basic',
-  templateUrl: './section-carousel.component.html'
-})
-export class NgbdCarouselBasic {
-}
-
-
- 
-@Component({
-  selector: 'demo-carousel-basic',
-  templateUrl: './section-carousel.component.html'
-})
-export class DemoCarouseBasicComponent {}

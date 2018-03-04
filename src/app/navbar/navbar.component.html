@@ -13,6 +13,17 @@
                 <li class="nav-item"> <a href="#services"> Services </a> </li>
                 <li class="nav-item"> <a href="#apropos"> A propos </a> </li>
                 <li class="nav-item"> <a href="#contact"> Contact </a> </li>
+
+                <li class="btn-group nav-item" dropdown>
+                    <a dropdownToggle class="dropdown-toggle ">
+                      Services <span class="caret"></span>
+                    </a>
+                    <ul *dropdownMenu class="dropdown-menu" role="menu">
+                        <li role="menuitem"><a class="dropdown-item" href="/produits">Nos produits</a></li>
+                        <li role="menuitem"><a class="dropdown-item" href="/services">Domaines</a></li>
+                        <li role="menuitem"><a class="dropdown-item" href="/conseils">Conseils de maintenance</a></li>
+                    </ul>
+                </li>
             </ul>
         </div>
 
