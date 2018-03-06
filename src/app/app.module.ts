@@ -1,6 +1,10 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { AppComponent } from './app.component';
+import { FormsModule } from '@angular/forms';
+import { AngularFireModule } from 'angularfire2';
+import { AngularFireDatabaseModule } from 'angularfire2/database';
+import { environment } from '../environments/environment';
 
 /* importing bootstrap */
 import {NgbModule} from '@ng-bootstrap/ng-bootstrap';
@@ -28,6 +32,8 @@ import { AppRoutingModule } from './/app-routing.module';
 /* home page layout components importation */
 import { LayoutsComponent } from './layouts/layouts.component';
 
+// Service(s) imports
+import { ContactService } from './contact.service';
 
 
 
@@ -48,12 +54,15 @@ import { LayoutsComponent } from './layouts/layouts.component';
   ], 
   imports: [
     BrowserModule,
+    FormsModule,
+    AngularFireDatabaseModule,
+    AngularFireModule.initializeApp(environment.firebase),
     NgbModule.forRoot(),
     CarouselModule.forRoot(),
     BsDropdownModule.forRoot(),
     AppRoutingModule
   ],
-  providers: [],
+  providers: [ContactService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
