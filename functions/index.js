@@ -33,11 +33,11 @@ exports.sendContactMessage = functions.database.ref('/messages/{pushKey}').onWri
     const val = snapshot.val();
     
     const mailOptions = {
-      to: 'jepriesten@gmail.com',
+      to: 'tchassemborel@gmail.com',
       subject: `Information Request from ${val.name}`,
       html: val.html
     };
     return mailTransport.sendMail(mailOptions).then(() => {
-      return console.log('Mail sent to: jepriesten@gmail.com')}
+      return console.log('Mail sent to: tchassemborel@gmail.com')}
     );
   });
