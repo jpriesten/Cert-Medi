@@ -1,7 +1,7 @@
 import { Injectable } from '@angular/core';
 import { Contact } from './contact';
 import { AngularFireModule } from 'angularfire2';
-import { AngularFireDatabase } from 'angularfire2/database';
+import { AngularFireDatabase } from 'angularfire2/database'; 
 
 @Injectable()
 export class ContactService {
