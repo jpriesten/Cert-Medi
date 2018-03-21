@@ -18,25 +18,25 @@ h3 {
     font-weight: 900;
 }
 
-.services a {
+.services i {
     height: 100px;
     width: 100px;
     font-size: 40px;
     padding: 25px 25px;
     color: #fff;
-    background-color: #f71;
+    background-color: rgb(17, 168, 255);
 }
 
-.services a:hover {
-    height: 150px;
-    width: 150px;
-    background-color: #17e1ee;
+.services i:hover {
+    border-radius: 25%;
+    background-color: #787a7a;
 }
 
 .services p {
     color: #737373;
-    font-size: 20px;
+    font-size: 15px;
     padding-bottom: 40px;
+    padding-top: 20px;
 }
 
 @media(max-width:767px) {

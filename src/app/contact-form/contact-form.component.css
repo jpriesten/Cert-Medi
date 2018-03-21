@@ -14,10 +14,12 @@
 .contact-heading {
     text-transform: uppercase;
     text-shadow: 3px 3px 3px #141414;
+    color: rgb(128, 220, 248);
 }
 
 .contact-subheading {
     color: white;
+    padding-bottom: 25px;
 }
 
 @media(max-width:767px) {}

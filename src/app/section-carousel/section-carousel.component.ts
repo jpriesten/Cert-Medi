@@ -15,5 +15,9 @@ export class SectionCarouselComponent implements OnInit {
   onclick(){
     window.alert("hello");
   }
+  anchorClick(event) {
+    const anchor = event.srcElement.getAttribute('anchor');
+    document.getElementById(anchor).scrollIntoView();
+  }
 
 }
