@@ -34,6 +34,11 @@ import { LayoutsComponent } from './layouts/layouts.component';
 
 // Service(s) imports
 import { ContactService } from './contact.service';
+import { ServicesSubmenuComponent } from './services-submenu/services-submenu.component';
+import { SubmenuOneComponent } from './submenu-one/submenu-one.component';
+import { SubmenuTwoComponent } from './submenu-two/submenu-two.component';
+import { SubmenuThreeComponent } from './submenu-three/submenu-three.component';
+import { SubmenuFourComponent } from './submenu-four/submenu-four.component';
 
 
 
@@ -50,7 +55,12 @@ import { ContactService } from './contact.service';
     ContactFormComponent,
     MainMenuComponent,
     LayoutsComponent,
-    SectionOurServicesComponent
+    SectionOurServicesComponent,
+    ServicesSubmenuComponent,
+    SubmenuOneComponent,
+    SubmenuTwoComponent,
+    SubmenuThreeComponent,
+    SubmenuFourComponent
   ], 
   imports: [
     BrowserModule,

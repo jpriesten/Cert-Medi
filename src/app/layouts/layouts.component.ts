@@ -13,6 +13,12 @@ import { ContactFormComponent } from '../contact-form/contact-form.component';
 import { MainMenuComponent } from '../main-menu/main-menu.component';
 import { SectionOurServicesComponent } from '../section-our-services/section-our-services.component';
 
+import { ServicesSubmenuComponent } from '../services-submenu/services-submenu.component';
+import { SubmenuFourComponent } from '../submenu-four/submenu-four.component';
+import { SubmenuThreeComponent } from '../submenu-three/submenu-three.component';
+import { SubmenuTwoComponent } from '../submenu-two/submenu-two.component';
+import { SubmenuOneComponent } from '../submenu-one/submenu-one.component';
+
 
 @Component({
   selector: 'app-layouts',

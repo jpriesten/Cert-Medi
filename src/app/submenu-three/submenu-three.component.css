@@ -1,0 +1,26 @@
+.submenuOne {
+    height: auto;
+    font-family: "Poppins", sans-serif;
+}
+
+.single-service {
+    border: 1px;
+    border-radius: 2%;
+    padding: 10px;
+    box-shadow: 5px 5px 8px #37393aa1;
+}
+
+.single-service h4 {
+    color: rgb(9, 130, 167);
+    font-family: Verdana, "sans-serif";
+}
+
+.sub-item-header {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.sub-item-header h2 {
+    color: rgb(6, 189, 245);
+    font-family: Verdana, "sans-serif";
+}

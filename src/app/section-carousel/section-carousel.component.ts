@@ -13,11 +13,8 @@ export class SectionCarouselComponent implements OnInit {
   }
 
   onclick(){
-    window.alert("hello");
+    // go to main menu
   }
-  anchorClick(event) {
-    const anchor = event.srcElement.getAttribute('anchor');
-    document.getElementById(anchor).scrollIntoView();
-  }
+ 
 
 }
